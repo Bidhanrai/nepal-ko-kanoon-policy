@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Nepal ko Kanoon</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;600;700&display=swap');
+
+  :root {
+    --bg: #FAF9F5;
+    --surface: #FFFFFF;
+    --border: #E5E3DB;
+    --text-primary: #1A1A18;
+    --text-secondary: #565650;
+    --text-muted: #8A8980;
+    --accent: #8B4118;
+    --accent-subtle: #FBF1EC;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    font-family: 'Mukta', sans-serif;
+    background: var(--bg);
+    color: var(--text-primary);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a { color: var(--accent); text-decoration: none; }
+  a:hover, a:focus-visible { text-decoration: underline; }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  header.nav {
+    padding: 20px 24px;
+    border-bottom: 0.5px solid var(--border);
+    background: var(--surface);
+  }
+
+  .nav-inner {
+    max-width: 720px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .wordmark-ne {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--accent);
+    margin: 0;
+  }
+
+  .wordmark-en {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin: 2px 0 0;
+  }
+
+  .nav-link {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-secondary);
+  }
+
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+
+  .doc-title-ne {
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0;
+  }
+
+  .doc-title-en {
+    font-size: 16px;
+    color: var(--text-secondary);
+    margin: 4px 0 0;
+  }
+
+  .updated {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin: 16px 0 0;
+  }
+
+  .intro {
+    font-size: 16px;
+    color: var(--text-secondary);
+    margin: 24px 0 0;
+    max-width: 62ch;
+  }
+
+  nav.toc {
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin: 32px 0 48px;
+  }
+
+  .toc-label {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin: 0 0 12px;
+  }
+
+  .toc ol {
+    margin: 0;
+    padding-left: 20px;
+    columns: 2;
+    column-gap: 24px;
+  }
+
+  .toc li { margin-bottom: 8px; break-inside: avoid; }
+  .toc a { font-size: 14px; color: var(--text-primary); }
+  .toc a:hover { color: var(--accent); }
+
+  section {
+    margin: 0 0 40px;
+    scroll-margin-top: 24px;
+  }
+
+  h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0 0 12px;
+  }
+
+  section p, section li {
+    font-size: 16px;
+    color: var(--text-secondary);
+    max-width: 68ch;
+  }
+
+  section ul { padding-left: 20px; margin: 12px 0; }
+  section li { margin-bottom: 8px; }
+
+  section p + p { margin-top: 12px; }
+
+  strong { color: var(--text-primary); font-weight: 600; }
+
+  footer {
+    border-top: 0.5px solid var(--border);
+    padding: 24px;
+  }
+
+  .footer-inner {
+    max-width: 720px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  footer p {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin: 0;
+  }
+
+  @media (max-width: 560px) {
+    .toc ol { columns: 1; }
+    .doc-title-ne { font-size: 24px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <div>
+      <p class="wordmark-ne">नेपालको कानून</p>
+      <p class="wordmark-en">Nepal ko Kanoon</p>
+    </div>
+    <!-- Relative link — works as-is if terms-of-use.html sits in the
+         same folder on GitHub Pages. Change to a full URL if it lives
+         somewhere else. -->
+    <a class="nav-link" href="terms-of-use.html">Terms of Use →</a>
+  </div>
+</header>
+
+<main>
+  <h1 class="doc-title-ne">गोपनीयता नीति</h1>
+  <p class="doc-title-en">Privacy Policy</p>
+  <p class="updated">Last updated: September 12, 2026</p>
+
+  <p class="intro">
+    This policy explains what information the नेपालको कानून (Nepal ko
+    Kanoon) app collects when you use it on Android or iOS, and how
+    that information is handled.
+  </p>
+
+  <nav class="toc" aria-label="Table of contents">
+    <p class="toc-label">On this page</p>
+    <ol>
+      <li><a href="#overview">1. Overview</a></li>
+      <li><a href="#information-we-collect">2. Information we collect</a></li>
+      <li><a href="#how-we-use-it">3. How we use information</a></li>
+      <li><a href="#third-party">4. Third-party services</a></li>
+      <li><a href="#sharing">5. Data sharing</a></li>
+      <li><a href="#retention">6. Data retention</a></li>
+      <li><a href="#children">7. Children's privacy</a></li>
+      <li><a href="#choices">8. Your choices</a></li>
+      <li><a href="#security">9. Data security</a></li>
+      <li><a href="#changes">10. Changes to this policy</a></li>
+      <li><a href="#contact">11. Contact us</a></li>
+    </ol>
+  </nav>
+
+  <section id="overview">
+    <h2>1. Overview</h2>
+    <p>
+      Finnove Technologies Pvt. Ltd. ("Finnove," "we," "us," "our")
+      built नेपालको कानून, a free tool that helps people estimate
+      Nepali government fees — currently court filing fees, with
+      company registration and property transfer fee estimators
+      planned. This policy covers the mobile app only.
+    </p>
+  </section>
+
+  <section id="information-we-collect">
+    <h2>2. Information we collect</h2>
+    <p>
+      <strong>Calculation inputs stay on your device.</strong>
+      Case type, court level, case stage, disputed amount, and any
+      other figures you enter into a calculator are processed
+      entirely on your device. We do not transmit these details, or
+      the results, to our servers.
+    </p>
+    <p>
+      <strong>Automatically collected technical and usage data.</strong>
+      We use Firebase Analytics and Firebase Crashlytics (both Google
+      products) to understand how the app is used and to catch bugs.
+      This can include:
+    </p>
+    <ul>
+      <li>Device model, operating system, and app version</li>
+      <li>General location at the country or region level, derived from IP address — not precise GPS</li>
+      <li>App usage events, such as which tool or screen was opened and session length</li>
+      <li>If the app crashes: a diagnostic log with the stack trace and device state (memory, storage, OS version) at the time</li>
+    </ul>
+    <p>
+      <strong>We do not collect your name, email, phone number, or
+      any account credentials</strong> — the app has no user
+      accounts.
+    </p>
+    <p>
+      <strong>Feedback you choose to send.</strong> The
+      "Feedback" option in Settings opens your own email app,
+      addressed to admin@finnovetech.com. Anything you write is
+      delivered by your email provider; the app itself does not
+      collect or transmit it.
+    </p>
+  </section>
+
+  <section id="how-we-use-it">
+    <h2>3. How we use information</h2>
+    <p>
+      To keep the app stable (crash diagnostics), to understand which
+      tools are useful and improve them, and to respond to feedback
+      you choose to send us.
+    </p>
+  </section>
+
+  <section id="third-party">
+    <h2>4. Third-party services</h2>
+    <p>
+      We use Firebase (a Google product) for analytics and crash
+      reporting. Firebase processes data on our behalf under Google's
+      own terms and practices — see
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.
+      The app is distributed through the Apple App Store and Google
+      Play Store, which have their own separate privacy practices
+      governing your relationship with them as platforms.
+    </p>
+  </section>
+
+  <section id="sharing">
+    <h2>5. Data sharing</h2>
+    <p>
+      We do not sell your data. Information collected through
+      Firebase is shared only with Google as our service provider, as
+      described above. We do not share data with any other third
+      party.
+    </p>
+  </section>
+
+  <section id="retention">
+    <h2>6. Data retention</h2>
+    <p>
+      Analytics and crash data are retained only as long as necessary
+      for the purposes described above, in line with Firebase's data
+      retention settings for our project.
+    </p>
+  </section>
+
+  <section id="children">
+    <h2>7. Children's privacy</h2>
+    <p>
+      नेपालको कानून is built for general adult use — helping with
+      court cases, business registration, and property matters — and
+      is not directed at, or intended for use by, children. We do not
+      knowingly collect information from anyone under 18. If you
+      believe a child has provided us information, contact us at
+      admin@finnovetech.com and we'll remove it.
+    </p>
+  </section>
+
+  <section id="choices">
+    <h2>8. Your choices</h2>
+    <p>
+      You can limit analytics collection through your device's
+      privacy settings (for example, Android's ad personalization
+      controls or iOS's tracking permissions). You can also contact
+      us to ask what information, if any, is associated with your
+      device.
+    </p>
+  </section>
+
+  <section id="security">
+    <h2>9. Data security</h2>
+    <p>
+      We take reasonable measures to protect information processed
+      through the app, but no method of electronic storage or
+      transmission is completely secure, and we can't guarantee
+      absolute security.
+    </p>
+  </section>
+
+  <section id="changes">
+    <h2>10. Changes to this policy</h2>
+    <p>
+      We may update this policy as the app evolves — for example, if
+      we introduce user accounts in the future. We'll update the
+      "Last updated" date above when we do, and note material changes
+      in the app's store listing update notes.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>11. Contact us</h2>
+    <p>
+      Questions about this policy? Email
+      <a href="mailto:admin@finnovetech.com">admin@finnovetech.com</a>.
+    </p>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <p>© 2026 Finnove Technologies Pvt. Ltd.</p>
+    <p>नेपालको कानून · Nepal ko Kanoon</p>
+  </div>
+</footer>
+
+</body>
+</html>
